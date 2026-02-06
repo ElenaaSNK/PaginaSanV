@@ -1,0 +1,23 @@
+body{
+    background-color: #FFC6D9;
+}
+h1{
+    color: #424874;
+}
+
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.btn-azul{
+    color: #424874;
+    border-color: #424874;
+    background-color: transparent;
+}
+.btn-azul:hover{
+    background-color: #424874;
+    color: #FFC6D9;
+}
