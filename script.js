@@ -28,12 +28,18 @@ btnNo.addEventListener("mouseenter",()=>{
     escalaActual += 0.2;
     const fraseAleatoria = frasesNo[Math.floor(Math.random() * frasesNo.length)];
     mensaje.textContent = fraseAleatoria.toUpperCase();
-    btnSi.style.transform = `scale(${escalaActual})`;
+    btnSi.style.padding = `${10 * escalaActual}px ${20 * escalaActual}px`;
+    btnSi.style.fontSize = `${1 * escalaActual}rem`;
 });
 
 btnSi.addEventListener("mouseenter", ()=>{
     escalaActual+=0.2;
     const fraseAleatoria = frasesSi[Math.floor(Math.random() * frasesSi.length)];
     mensaje.textContent = fraseAleatoria.toUpperCase();
-    btnSi.style.transform = `scale(${escalaActual})`;
+    btnSi.style.padding = `${10 * escalaActual}px ${20 * escalaActual}px`;
+    btnSi.style.fontSize = `${1 * escalaActual}rem`;
+});
+
+btnSi.addEventListener("click", ()=>{
+    window.location.href = "si.html";
 })
