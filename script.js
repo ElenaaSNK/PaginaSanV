@@ -43,3 +43,7 @@ btnSi.addEventListener("mouseenter", ()=>{
 btnSi.addEventListener("click", ()=>{
     window.location.href = "si.html";
 })
+
+btnNo.addEventListener("click", ()=>{
+    window.location.href = "no.html";
+})

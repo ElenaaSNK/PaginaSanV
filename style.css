@@ -1,26 +1,61 @@
-body{
+body {
     background-color: #FFC6D9;
 }
-h1{
+
+h1 {
     color: #424874;
 }
 
 .imperial-script-regular {
-  font-family: "Imperial Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 10rem;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10rem;
 }
 
-.btn-azul{
+.cookie-regular {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.btn-azul {
     color: #424874;
     border-color: #424874;
     background-color: transparent;
 }
-.btn-azul:hover{
+
+.btn-azul:hover {
     background-color: #424874;
     color: #FFC6D9;
 }
-.mensaje{
+
+.mensaje {
     color: #424874;
+}
+
+.gallery-card {
+    border: none;
+    border-radius: 20px;
+    /* Bordes muy redondeados */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #FFC6D9;
+    /* Fondo rosa suave de tu paleta */
+}
+
+.gallery-card:hover {
+    transform: translateY(-10px);
+    /* La foto sube un poquito al pasar el mouse */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    /* Sombra suave */
+}
+
+.gallery-card img {
+    height: 250px;
+    /* Tamaño uniforme para todas las fotos */
+    height: 25rem;
+    object-fit: cover;
+    /* Ajusta la imagen sin deformarla */
 }
